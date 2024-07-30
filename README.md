@@ -7,9 +7,9 @@
 ![Man hours](https://manhours.aiursoft.cn/r/github.com/anduin2017/howtocook.svg)
 [![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://github.com/Anduin2017/HowToCook/pkgs/container/how-to-cook)
 
-最近在家隔离，出不了门。只能宅在家做饭了。作为程序员，我偶尔在网上找找菜谱和做法。但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。
+这是一个 [HowToCook](https://github.com/Anduin2017/HowToCook?tab=readme-ov-file) 的 fork，只不过本仓库专注于饮品的制作方式，包括但不限于咖啡、茶、酒、以及其他饮料。
 
-所以，我计划自己搜寻菜谱并结合实际做菜的经验，准备用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。
+除了常见的饮品配方外，也欢迎分享自己开发的好喝饮品，并给它取一个独特的名字~
 
 同样，我希望它是一个由社区驱动和维护的开源项目，使更多人能够一起做一个有趣的仓库。所以非常欢迎大家贡献它~
 
@@ -33,17 +33,6 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 ## 做菜之前
 
 - [厨房准备](tips/厨房准备.md)
-- [如何选择现在吃什么](tips/如何选择现在吃什么.md)
-- [高压力锅](tips/learn/高压力锅.md)
-- [去腥](tips/learn/去腥.md)
-- [食品安全](tips/learn/食品安全.md)
-- [微波炉](tips/learn/微波炉.md)
-- [学习焯水](tips/learn/学习焯水.md)
-- [学习炒与煎](tips/learn/学习炒与煎.md)
-- [学习凉拌](tips/learn/学习凉拌.md)
-- [学习腌](tips/learn/学习腌.md)
-- [学习蒸](tips/learn/学习蒸.md)
-- [学习煮](tips/learn/学习煮.md)
 
 ## 菜谱
 
