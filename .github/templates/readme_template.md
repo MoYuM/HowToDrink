@@ -1,15 +1,15 @@
-# 程序员做饭指南
+# 程序员自制饮品指南
 
-[![build](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml/badge.svg)](https://github.com/Anduin2017/HowToCook/actions/workflows/build.yml)
-[![License](https://img.shields.io/github/license/Anduin2017/HowToCook)](./LICENSE)
-[![GitHub contributors](https://img.shields.io/github/contributors/Anduin2017/HowToCook)](https://github.com/Anduin2017/HowToCook/graphs/contributors)
+[![build](https://github.com/MoYuM/HowToDrink/actions/workflows/build.yml/badge.svg)](https://github.com/MoYuM/HowToDrink/actions/workflows/build.yml)
+[![License](https://img.shields.io/github/license/MoYuM/HowToDrink)](./LICENSE)
+[![GitHub contributors](https://img.shields.io/github/contributors/MoYuM/HowToDrink)](https://github.com/MoYuM/HowToDrink/graphs/contributors)
 [![npm](https://img.shields.io/npm/v/how-to-cook)](https://www.npmjs.com/package/how-to-cook)
-![Man hours](https://manhours.aiursoft.cn/r/github.com/anduin2017/howtocook.svg)
-[![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://github.com/Anduin2017/HowToCook/pkgs/container/how-to-cook)
+![Man hours](https://manhours.aiursoft.cn/r/github.com/MoYuM/HowToDrink.svg)
+[![Docker](https://img.shields.io/badge/docker-latest-blue?logo=docker)](https://github.com/MoYuM/HowToDrink/pkgs/container/how-to-cook)
 
-最近在家隔离，出不了门。只能宅在家做饭了。作为程序员，我偶尔在网上找找菜谱和做法。但是这些菜谱往往写法千奇百怪，经常中间莫名出来一些材料。对于习惯了形式语言的程序员来说极其不友好。
+这是一个 [HowToCook](https://github.com/Anduin2017/HowToCook) 的 fork，只不过本仓库专注于饮品的制作方式，包括但不限于咖啡、茶、酒、以及其他饮料。
 
-所以，我计划自己搜寻菜谱并结合实际做菜的经验，准备用更清晰精准的描述来整理常见菜的做法，以方便程序员在家做饭。
+除了常见的饮品配方外，也欢迎分享自己开发的好喝饮品，并给它取一个独特的名字~
 
 同样，我希望它是一个由社区驱动和维护的开源项目，使更多人能够一起做一个有趣的仓库。所以非常欢迎大家贡献它~
 

@@ -10,53 +10,23 @@ const starsystemFolder = 'starsystem';
 const ignorePaths = ['.git', 'README.md', 'node_modules', 'CONTRIBUTING.md', '.github'];
 
 const categories = {
-  vegetable_dish: {
-    title: '素菜',
+  cocktail: {
+    title: '鸡尾酒',
     readme: '',
     mkdocs: '',
   },
-  meat_dish: {
-    title: '荤菜',
+  coffee: {
+    title: '咖啡',
     readme: '',
     mkdocs: '',
   },
-  aquatic: {
-    title: '水产',
+  'soft-drink': {
+    title: '软饮料',
     readme: '',
     mkdocs: '',
   },
-  breakfast: {
-    title: '早餐',
-    readme: '',
-    mkdocs: '',
-  },
-  staple: {
-    title: '主食',
-    readme: '',
-    mkdocs: '',
-  },
-  'semi-finished': {
-    title: '半成品加工',
-    readme: '',
-    mkdocs: '',
-  },
-  soup: {
-    title: '汤与粥',
-    readme: '',
-    mkdocs: '',
-  },
-  drink: {
-    title: '饮料',
-    readme: '',
-    mkdocs: '',
-  },
-  condiment: {
-    title: '酱料和其它材料',
-    readme: '',
-    mkdocs: '',
-  },
-  dessert: {
-    title: '甜品',
+  tea: {
+    title: '茶',
     readme: '',
     mkdocs: '',
   },
@@ -108,7 +78,7 @@ async function organizeByStars(dishesFolder, starsystemFolder) {
 
   for (const stars of starRatings) {
     const starsFile = path.join(starsystemFolderAbs, `${stars}Star.md`);
-    const content = [`# ${stars} 星难度菜品`, ''];
+    const content = [`# ${stars} 星难度饮品`, ''];
     for (const [filepath, starCount] of Object.entries(dishes)) {
       if (starCount === stars) {
         const relativePath = path.relative(starsystemFolderAbs, filepath).replace(/\\/g, '/');
