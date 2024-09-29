@@ -1,14 +1,15 @@
 {
-  "name": "how-to-cook",
-  "description": "程序员在家做饭方法指南。Programmer's guide about how to cook at home (Chinese).",
+  "name": "how-to-drink",
+  "description": "程序员在家自制饮品方法指南。Programmer's guide about how to drink at home (Chinese).",
   "version": "1.4.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Anduin2017/HowToCook.git"
+    "url": "git+https://github.com/MoYuM/HowToDrink"
   },
   "keywords": [
     "recipes",
-    "cooking",
+    "drink",
+    "cocktail",
     "cookbook",
     "chinese",
     "dishes"
@@ -20,12 +21,11 @@
     "markdownlint": "markdownlint ./dishes ./tips",
     "lint": "npm run textlint && npm run markdownlint && npm run manuallint && echo 'Lint finished. All passed.'"
   },
-  "author": "Anduin2017",
+  "author": "moyum",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/Anduin2017/HowToCook/issues"
+    "url": "https://github.com/MoYuM/HowToDrink/issues"
   },
-  "homepage": "https://cook.aiursoft.cn",
   "dependencies": {
     "textlint": "^12.1.0",
     "textlint-rule-ja-space-between-half-and-full-width": "^2.2.0",
