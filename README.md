@@ -18,12 +18,12 @@
 
 针对发现的问题，直接修改并提交 Pull request 即可。
 
-## 做菜之前
+## 制作之前
 
 - [厨房准备](tips/厨房准备.md)
 - [基酒](tips/learn/基酒.md)
 
-## 菜谱
+## 配方
 
 ### 按难度索引
 
@@ -56,7 +56,7 @@
 - [海风](drink/cocktail/海风.md)
 - [海明威特调](drink/cocktail/海明威特调.md)
 - [含羞草](drink/cocktail/含羞草.md)
-- [黑se俄罗斯](drink/cocktail/黑se俄罗斯.md)
+- [黑色俄罗斯](drink/cocktail/黑色俄罗斯.md)
 - [猴腺](drink/cocktail/猴腺.md)
 - [花花公子](drink/cocktail/花花公子.md)
 - [黄鸟](drink/cocktail/黄鸟.md)
@@ -107,6 +107,7 @@
 - [威士忌酸](drink/cocktail/威士忌酸.md)
 - [薇思朋](drink/cocktail/薇思朋.md)
 - [香槟鸡尾酒](drink/cocktail/香槟鸡尾酒.md)
+- [想谈恋爱](drink/cocktail/想谈恋爱/想谈恋爱.md)
 - [辛辣五十](drink/cocktail/辛辣五十.md)
 - [新加坡司令](drink/cocktail/新加坡司令.md)
 - [性感海滩](drink/cocktail/性感海滩.md)
