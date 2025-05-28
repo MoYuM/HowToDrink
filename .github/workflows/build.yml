@@ -2,7 +2,7 @@ name: Continuous Deployment
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build-readme-file:
@@ -11,20 +11,20 @@ jobs:
       # Checkout, install tools..
       - uses: actions/checkout@v2
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-node@v4
         with:
-          node-version: '16'
-          cache: 'npm'
+          node-version: "16"
+          cache: "npm"
       - run: npm install
       - run: npm run build
       - run: npm run lint
       # Save files.
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: '[ci skip] Automatic file changes/fix'
-          branch: 'master'
-          file_pattern: ':/*.*'
+          commit_message: "[ci skip] Automatic file changes/fix"
+          branch: "master"
+          file_pattern: ":/*.*"
           commit_user_name: github-actions[bot]
           commit_user_email: github-actions[bot]@users.noreply.github.com
           commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
